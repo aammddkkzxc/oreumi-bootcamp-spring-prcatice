@@ -1,27 +1,16 @@
 package com.estsoft.hispring.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Person {
     private String name;
     private int age;
 
     public Person() {
 
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     @Override
